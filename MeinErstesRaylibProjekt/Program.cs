@@ -43,7 +43,7 @@ class Program{
             if (Raylib.CheckCollisionCircleRec(SpielBall.Position, SpielBall.Radius, SpielerZwei.Hitbox())){
                 SpielBall.BounceOffPlayer();
             }
-            
+
             // ZEICHNEN
             Raylib.BeginDrawing();
             Raylib.ClearBackground(Color.Black);
